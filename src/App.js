@@ -29,11 +29,12 @@ export default function App() {
   const emojiKeys = Object.keys(emojiDict);
 
   function handleInputChange(e) {
-    if (emojiDict[e.target.value]) {
+    setEmojiMeaning("");
+    if (e.target.value && emojiDict[e.target.value]) {
       setEmojiMeaning(emojiDict[e.target.value]);
     }
 
-    if (!emojiDict[e.target.value]) {
+    if (e.target.value && !emojiDict[e.target.value]) {
       setEmojiMeaning("We could not found this emoji on our database");
     }
   }
