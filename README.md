@@ -8,7 +8,7 @@
 
 Visit below link for demo 👇
 
-🔗 [mobile-morse-code](https://zw4qb.csb.app/)
+🔗 [emoji-dictionary](https://zw4qb.csb.app/)
 ## Screenshots
 - Desktop\
 ![desktop-emoji-dict](https://user-images.githubusercontent.com/31516195/152009632-d7d178cb-bb51-4cef-8b60-338c8520db6d.png)
